@@ -15,6 +15,7 @@ This project fetches real-time movie data from TMDB and allows users to:
 Tech Stack
 
 Frontend
+
 Next.js 15
 React 19
 Tailwindcss v4
@@ -23,15 +24,18 @@ Axios
 Typescript
 
 Authentication
+
 Login/Signup handled via Firebase Authentication
 - Auth state stored in React Context
 - Protected routes redirect unauthenticated users to the login page
 
 
 Testing
-Jesting
+
+Jest
 
 Other Tools
+
 CI/CD Pipeline for Linting and automatic deployment
 
 App Features
@@ -53,14 +57,17 @@ App Features
 
   
   Architecture
+  
   The app follows a feature-based architecture with separation of concerns
 
   System Requirements
+  
 - Node.js >= 18.x  
 - npm >= 9.x  
 - Modern browser (Chrome, Edge, Firefox, Safari)
 
   Future Improvements
+  
   Add user-specific watchlist
   Implement dark mode toggle
   Support multi-language UI
