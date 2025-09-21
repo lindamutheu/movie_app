@@ -1,7 +1,6 @@
 Movie Recommendation App  
 
-A modern, responsive, and production-ready movie recommendation platform built with Next.js 15 (React 19)  and powered by The Movie Database (TMDB) API.  
-The goal of this project is to showcase clean architecture, scalable frontend development, and real-world practices like authentication, state management, testing, and CI/CD.  
+A modern, responsive, and production-ready movie recommendation platform built with Next.js 15 (React 19)  and powered by The Movie Database (TMDB) API. The goal of this project is to showcase clean architecture, scalable frontend development, and real-world practices like authentication, state management, testing, and CI/CD.  
 
 
 This project fetches real-time movie data from TMDB and allows users to:  
