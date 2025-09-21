@@ -31,7 +31,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <nav className="container mx-auto flex justify-between items-center">
           <Link href="/">
             <a className="text-2xl font-bold text-blue-400 hover:text-blue-300 transition-colors">
-               Movie App
+          Movie App
             </a>
           </Link>
           <div className="flex items-center space-x-4">

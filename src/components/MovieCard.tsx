@@ -25,7 +25,8 @@ const MovieCard: React.FC<MovieCardProps> = ({ movie }) => {
         width={500}
         height={750}
         className="w-full h-auto object-cover"
-        // Add the unoptimized property here
+
+        // unoptimized property 
         unoptimized={true} 
         onError={(e) => {
           e.currentTarget.src = 'https://placehold.co/500x750/000000/FFFFFF?text=No+Image';
