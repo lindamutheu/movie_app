@@ -31,7 +31,6 @@ Login/Signup handled via Firebase Authentication
 
 
 Testing
-
 Jest
 
 Other Tools
@@ -49,24 +48,24 @@ App Features
 - Loaders – Smooth loading experience while fetching data.
 - Responsive UI– Optimized for desktop and mobile devices.
 
-  Performance & Accessibility
+Performance & Accessibility
   
 - Lighthouse Score:90+ (Performance, Accessibility, SEO)
 - Lazy Loading: Images and API data are loaded progressively
 - Responsive: Fully mobile-first and cross-browser compatible
 
   
-  Architecture
+Architecture
   
   The app follows a feature-based architecture with separation of concerns
 
-  System Requirements
+System Requirements
   
 - Node.js >= 18.x  
 - npm >= 9.x  
 - Modern browser (Chrome, Edge, Firefox, Safari)
 
-  Future Improvements
+Future Improvements
   
   Add user-specific watchlist
   Implement dark mode toggle
