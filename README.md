@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Movie Recommendation App  
 
-## Getting Started
+A modern, responsive, and production-ready movie recommendation platform built with Next.js 15 (React 19)  and powered by The Movie Database (TMDB) API.  
+The goal of this project is to showcase clean architecture, scalable frontend development, and real-world practices like authentication, state management, testing, and CI/CD.  
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project fetches real-time movie data from TMDB and allows users to:  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Discover trending & popular movies  
+- View detailed movie information (cast, crew, ratings)  
+- Search for movies by title or keyword  
+- Authenticate with Firebase  
+- Experience smooth pagination and data caching
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Frontend
+Next.js 15
+React 19
+Tailwindcss v4
+TanStack React Query 
+Axios
+Typescript
 
-## Learn More
+Authentication
+Login/Signup handled via Firebase Authentication
+- Auth state stored in React Context
+- Protected routes redirect unauthenticated users to the login page
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Testing
+Jesting
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Other Tools
+CI/CD Pipeline for Linting and automatic deployment
 
-## Deploy on Vercel
+App Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Movie List – Browse popular and trending movies.
+- Movie Details – View full details including title, overview, cast, crew, ratings, and more.
+- Search Functionality – Search movies by title or keyword.
+- Pagination – Efficiently load movies without overwhelming the UI.
+- Authentication – Secure login using Firebase Authentication.
+- Data Caching – Cached API requests for better performance using React Query.
+- Loaders – Smooth loading experience while fetching data.
+- Responsive UI– Optimized for desktop and mobile devices.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  Performance & Accessibility
+  
+- Lighthouse Score:90+ (Performance, Accessibility, SEO)
+- Lazy Loading: Images and API data are loaded progressively
+- Responsive: Fully mobile-first and cross-browser compatible
+
+  
+  Architecture
+  The app follows a feature-based architecture with separation of concerns
+
+  System Requirements
+- Node.js >= 18.x  
+- npm >= 9.x  
+- Modern browser (Chrome, Edge, Firefox, Safari)
+
+  Future Improvements
+  Add user-specific watchlist
+  Implement dark mode toggle
+  Support multi-language UI
+  
+
